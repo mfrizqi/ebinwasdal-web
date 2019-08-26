@@ -81,6 +81,10 @@ img { max-width: 100%; }
 
 /***** Top content *****/
 
+.h-100vh{
+	height: 100vh !important;
+}
+
 .inner-bg {
     padding: 100px 0 170px 0;
 }
