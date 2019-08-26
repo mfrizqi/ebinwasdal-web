@@ -1,0 +1,7 @@
+    td.details-control {
+    background: url('../asset/Logo/Logo Puskesmas 2.png') no-repeat center center;
+    cursor: pointer;
+    }
+    tr.details td.details-control {
+        background: url('../resources/details_close.png') no-repeat center center;
+    }

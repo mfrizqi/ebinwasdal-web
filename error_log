@@ -1,0 +1,11 @@
+[19-Apr-2018 10:37:46 Asia/Jakarta] PHP Fatal error:  Call to a member function result() on a non-object in /home/artelind/barjas-pkmtanahabang.ga/application/views/contents/PengadaanUpdate.php on line 93
+[19-Apr-2018 11:02:24 Asia/Jakarta] PHP Fatal error:  Call to a member function result() on a non-object in /home/artelind/barjas-pkmtanahabang.ga/application/views/contents/PengadaanUpdate.php on line 93
+[19-Apr-2018 12:00:24 Asia/Jakarta] PHP Fatal error:  Call to undefined method GudangModel::where() in /home/artelind/barjas-pkmtanahabang.ga/application/models/GudangModel.php on line 24
+[19-Apr-2018 12:01:16 Asia/Jakarta] PHP Fatal error:  Call to undefined method GudangModel::where() in /home/artelind/barjas-pkmtanahabang.ga/application/models/GudangModel.php on line 24
+[24-Apr-2018 10:36:24 Asia/Jakarta] PHP Fatal error:  Call to a member function result() on a non-object in /home/artelind/barjas-pkmtanahabang.ga/application/views/contents/PerencanaanAdd.php on line 78
+[30-Oct-2018 18:33:30 Asia/Jakarta] PHP Fatal error:  Cannot redeclare class Persediaanmasuk in /home/puskes32/public_html/barjas/application/models/persediaan/PersediaanModel.php on line 0
+[31-Oct-2018 12:24:59 Asia/Jakarta] PHP Fatal error:  Call to undefined function format() in /home/puskes32/public_html/barjas/application/controllers/persediaan/Persediaankeluar.php on line 99
+[31-Oct-2018 12:27:31 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/puskes32/public_html/barjas/application/controllers/persediaan/Persediaankeluar.php on line 99
+[31-Oct-2018 12:27:31 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/puskes32/public_html/barjas/application/controllers/persediaan/Persediaankeluar.php on line 99
+[31-Oct-2018 12:30:36 Asia/Jakarta] PHP Fatal error:  Call to a member function format() on null in /home/puskes32/public_html/barjas/application/controllers/persediaan/Persediaankeluar.php on line 99
+[31-Oct-2018 12:35:23 Asia/Jakarta] PHP Fatal error:  Call to undefined function DateFormat() in /home/puskes32/public_html/barjas/application/controllers/persediaan/Persediaankeluar.php on line 110
