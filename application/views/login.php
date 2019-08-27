@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
   <!-- <link rel="stylesheet" href="<?php echo base_url(); ?>asset/assets/bootstrap/css/bootstrap.min.css"> -->
   <link rel="stylesheet" href="<?php echo base_url(); ?>asset/assets/font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="<?php echo base_url(); ?>asset/assets/css/form-elements.css">
+  <!-- <link rel="stylesheet" href="<?php // echo base_url(); ?>asset/assets/css/form-elements.css"> -->
   <link rel="stylesheet" href="<?php echo base_url(); ?>asset/assets/css/style.css">
   <link rel="stylesheet" href="<?php echo base_url(); ?>asset/assets/css/utilities.css">
 
@@ -38,37 +38,37 @@
 
 <body class="h-100vh">
 
-  <!-- Top content -->
+ <!-- Top content -->
  <div class="container-fluid">
    <div class="row h-100vh">
-     <!-- WELCOME -->
-     <div class="col-6 my-auto" background="<?php echo base_url(); ?>asset/Logo/1.jpg">
-       <h2>E-BINWASDAL</h2>
+    <!-- WELCOME -->
+    <div class="col-6 loginbg">
+      <div class="loginhero">
+        <h2>E-BINWASDAL</h2>
+        <h3>Suku Dinas Kesehatan Jakarta Pusat</h3>
+        <h4>Jl. Percetakan Negara Jakarta Pusat, Jakarta</h4>
+      </div>
     </div>
-     <!-- FORM -->
-     <div class="col-6 my-auto">
-       <div class="row h-100vh">
-         <div class="col-md-10 my-auto">
-           <div>
-                <form>
-                  <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleInputPassword1">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                  </div>
-                  <div class="form-group form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                  </div>
-                  <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
-            </div>
-         </div>
+    <!-- FORM -->
+    <div class="col-6 my-auto">
+      <div class="row h-100vh justify-content-center">
+        <div class="col-md-8 my-auto">
+          <div>
+            <h1 class="mb-4">Login</h1>
+               <form>
+                 <div class="form-group">
+                   <label for="username">Username</label>
+                   <input type="email" class="form-control" id="username" name="username">
+                 </div>
+                 <div class="form-group">
+                   <label for="password">Password</label>
+                   <input type="password" class="form-control" id="password" name="password">
+                 </div>
+                 <button type="submit" class="btn btn-primary w-50 mt-2">Submit</button>
+               </form>
+           </div>
        </div>
+      </div>
      </div>
    </div>
  </div>
@@ -90,6 +90,5 @@
             <script src="assets/assets/js/placeholder.js"></script>
         <![endif]-->
 
-</body>
-
+  </body>
 </html>

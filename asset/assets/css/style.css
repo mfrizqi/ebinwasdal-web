@@ -168,6 +168,21 @@ img { max-width: 100%; }
 	margin-top: 25px;
 }
 
+.loginbg{
+	background:
+	linear-gradient(0deg,rgba(0,0,0,0.3),rgba(0,0,0,0.3)),
+	url("../../Logo/1.jpg");
+	  background-size:cover;
+	   color: white;
+}
+
+.loginhero{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-30%,-50%);
+}
+
 
 /***** Media queries *****/
 
